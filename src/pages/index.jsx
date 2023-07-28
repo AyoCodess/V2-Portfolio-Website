@@ -15,11 +15,11 @@ import logoAirbnb from '@/images/logos/airbnb.svg'
 import logoFacebook from '@/images/logos/facebook.svg'
 import logoPlanetaria from '@/images/logos/planetaria.svg'
 import logoStarbucks from '@/images/logos/starbucks.svg'
-import image1 from '@/images/photos/image-1.jpg'
-import image2 from '@/images/photos/image-2.jpg'
-import image3 from '@/images/photos/image-3.jpg'
-import image4 from '@/images/photos/image-4.jpg'
-import image5 from '@/images/photos/image-5.jpg'
+import image1 from '@/images/image-split-ayo/row-1-column-1.jpg'
+import image2 from '@/images/image-split-ayo/row-1-column-2.jpg'
+import image3 from '@/images/image-split-ayo/row-1-column-3.jpg'
+import image4 from '@/images/image-split-ayo/row-1-column-4.jpg'
+import image5 from '@/images/image-split-ayo/row-1-column-5.jpg'
 import { formatDate } from '@/lib/formatDate'
 import { generateRssFeed } from '@/lib/generateRssFeed'
 import { getAllArticles } from '@/lib/getAllArticles'
@@ -101,7 +101,7 @@ function Article({ article }) {
 
 function SocialLink({ icon: Icon, ...props }) {
   return (
-    <a  className="group -m-1 p-1" {...props} target='_blank' rel='noreferrer'>
+    <a className="group -m-1 p-1" {...props} target="_blank" rel="noreferrer">
       <Icon className="h-6 w-6 fill-zinc-500 transition group-hover:fill-zinc-600 dark:fill-zinc-400 dark:group-hover:fill-zinc-300" />
     </a>
   )
@@ -265,18 +265,20 @@ export default function Home({ articles }) {
           </h1>
           <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
             I’m Ayo, a software developer that works across the whole tech-stack
-            but primally works on the front-end at WP Tech (Sweden), building
-            internal integration systems.
+            but spend most of my time on the front-end at WP Tech (Sweden),
+            building internal integration systems and cross platform
+            applications.
           </p>
           <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
-            At this time I have space for freelance work, so if you have a project email me at{' '}
-            <span className='text-blue-500 hover:text-blue-600' >
+            At this time I have space for freelance work, so if you have a
+            project email me at{' '}
+            <span className="text-blue-500 hover:text-blue-600">
               <Mailto
                 email="ayo@ayoadesanya.com"
                 subject="Project Inquiry"
                 body="Hi Ayo, I have a project I'd like to discuss with you..."
               >
-                ayo@ayoadesanya.com
+                here.
               </Mailto>
             </span>
           </p>
