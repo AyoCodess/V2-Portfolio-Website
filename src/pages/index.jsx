@@ -11,10 +11,10 @@ import {
   LinkedInIcon,
   TwitterIcon,
 } from '@/components/SocialIcons'
-import logoAirbnb from '@/images/logos/airbnb.svg'
-import logoFacebook from '@/images/logos/facebook.svg'
-import logoPlanetaria from '@/images/logos/planetaria.svg'
-import logoStarbucks from '@/images/logos/starbucks.svg'
+import WPTech from '@/images/logos/wptech.jpeg'
+import Ayoda from '@/images/logos/ayoda.jpeg'
+import Pheno from '@/images/logos/pheno.jpeg'
+import SHB from '@/images/logos/sbh.jpeg'
 import image1 from '@/images/image-split-ayo/row-1-column-1.jpg'
 import image2 from '@/images/image-split-ayo/row-1-column-2.jpg'
 import image3 from '@/images/image-split-ayo/row-1-column-3.jpg'
@@ -141,8 +141,18 @@ function Resume() {
     {
       company: 'Wp Tech',
       title: 'Frontend Developer',
-      logo: logoPlanetaria,
+      logo: WPTech,
       start: '2022',
+      end: {
+        label: 'Present',
+        dateTime: new Date().getFullYear(),
+      },
+    },
+    {
+      company: 'Stop Holding Back',
+      title: 'Charity Co-Founder & Web Admin',
+      logo: SHB,
+      start: '2017',
       end: {
         label: 'Present',
         dateTime: new Date().getFullYear(),
@@ -151,24 +161,17 @@ function Resume() {
     {
       company: 'Phenopolis',
       title: 'Frontend Developer',
-      logo: logoAirbnb,
+      logo: Pheno,
       start: '2022',
       end: '2021',
     },
     {
       company: 'AYODA',
-      title: 'FullStack Developer',
-      logo: logoFacebook,
+      title: 'Full-stack Developer',
+      logo: Ayoda,
       start: '2020',
       end: '2021',
     },
-    // {
-    //   company: 'Starbucks',
-    //   title: 'Shift Supervisor',
-    //   logo: logoStarbucks,
-    //   start: '2008',
-    //   end: '2011',
-    // },
   ]
 
   return (
@@ -211,7 +214,11 @@ function Resume() {
           </li>
         ))}
       </ol>
-      <Button href="#" variant="secondary" className="group mt-6 w-full">
+      <Button
+        href="/cv/Ayo Adesanya - Web Developer Resume.pdf"
+        variant="secondary"
+        className="group mt-6 w-full"
+      >
         Download CV
         <ArrowDownIcon className="h-4 w-4 stroke-zinc-400 transition group-active:stroke-zinc-600 dark:group-hover:stroke-zinc-50 dark:group-active:stroke-zinc-50" />
       </Button>
