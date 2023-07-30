@@ -215,6 +215,7 @@ function Resume() {
         ))}
       </ol>
       <Button
+        external={true}
         href="/cv/Ayo Adesanya - Web Developer Resume.pdf"
         variant="secondary"
         className="group mt-6 w-full"
