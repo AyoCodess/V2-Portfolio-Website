@@ -10,6 +10,9 @@ export function SimpleLayout({ title, intro, children }) {
         <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
           {intro}
         </p>
+        <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
+          You can view my older projects on v1 of my portfolio website.
+        </p>
       </header>
       <div className="mt-16 sm:mt-20">{children}</div>
     </Container>

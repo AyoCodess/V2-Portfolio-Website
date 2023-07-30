@@ -3,48 +3,53 @@ import Image from 'next/image'
 
 import { Card } from '@/components/Card'
 import { SimpleLayout } from '@/components/SimpleLayout'
-import logoAnimaginary from '@/images/logos/animaginary.svg'
-import logoCosmos from '@/images/logos/cosmos.svg'
-import logoHelioStream from '@/images/logos/helio-stream.svg'
+import logoFacebook from '@/images/logos/facebook.svg'
+import logoAyoda from '@/images/logos/ayoda.jpeg'
+import logoTailwind from '@/images/logos/tailwind.png'
 import logoOpenShuttle from '@/images/logos/open-shuttle.svg'
 import logoPlanetaria from '@/images/logos/planetaria.svg'
 
 const projects = [
   {
-    name: 'Planetaria',
+    name: 'AC Component Library',
     description:
-      'Creating technology to empower civilians to explore space on their own terms.',
-    link: { href: 'http://planetaria.tech', label: 'planetaria.tech' },
-    logo: logoPlanetaria,
+      'A Tailwind and Framer Motion based component library for React.',
+    link: {
+      href: 'https://aclibrary.vercel.app/',
+      label: 'aclibrary.vercel.app',
+    },
+    logo: logoTailwind,
   },
   {
-    name: 'Animaginary',
-    description:
-      'High performance web animation library, hand-written in optimized WASM.',
-    link: { href: '#', label: 'github.com' },
-    logo: logoAnimaginary,
+    name: 'Facebook Clone',
+    description: 'A Facebook clone built with React, Zustand and Firebase.',
+    link: {
+      href: 'https://leaveyourmark.vercel.app/',
+      label: 'leaveyourmark.vercel.app',
+    },
+    logo: logoFacebook,
   },
   {
-    name: 'HelioStream',
+    name: 'V.1 Portfolio Website',
     description:
-      'Real-time video streaming library, optimized for interstellar transmission.',
-    link: { href: '#', label: 'github.com' },
-    logo: logoHelioStream,
+      'The first version of my portfolio website built vanilla HTML, CSS and JavaScript.',
+    link: { href: 'https://v1.ayoadesanya.com', label: 'v1.ayoadesanya.com' },
+    logo: logoAyoda,
   },
-  {
-    name: 'cosmOS',
-    description:
-      'The operating system that powers our Planetaria space shuttles.',
-    link: { href: '#', label: 'github.com' },
-    logo: logoCosmos,
-  },
-  {
-    name: 'OpenShuttle',
-    description:
-      'The schematics for the first rocket I designed that successfully made it to orbit.',
-    link: { href: '#', label: 'github.com' },
-    logo: logoOpenShuttle,
-  },
+  // {
+  //   name: 'cosmOS',
+  //   description:
+  //     'The operating system that powers our Planetaria space shuttles.',
+  //   link: { href: '#', label: 'github.com' },
+  //   logo: logoCosmos,
+  // },
+  // {
+  //   name: 'OpenShuttle',
+  //   description:
+  //     'The schematics for the first rocket I designed that successfully made it to orbit.',
+  //   link: { href: '#', label: 'github.com' },
+  //   logo: logoOpenShuttle,
+  // },
 ]
 
 function LinkIcon(props) {
