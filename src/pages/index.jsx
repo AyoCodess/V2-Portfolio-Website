@@ -345,15 +345,16 @@ export default function Home({ articles }) {
           <ArrowRightIcon className="h-4 w-4 stroke-zinc-400 transition group-active:stroke-zinc-600 dark:group-hover:stroke-zinc-50 dark:group-active:stroke-zinc-50" />
         </Button>
       </Container>
-
+      {/* // lg:grid-cols-2 */}
       <Container className="mt-24 md:mt-28">
-        <div className="mx-auto grid max-w-xl grid-cols-1 gap-y-20 lg:max-w-none lg:grid-cols-2">
-          <div className="flex flex-col gap-16">
+        <div className="mx-auto grid max-w-xl grid-cols-1 gap-y-20 lg:max-w-none">
+          {/* <div className="flex flex-col gap-16">
             {articles.map((article) => (
               <Article key={article.slug} article={article} />
             ))}
-          </div>
-          <div className="space-y-10 lg:pl-16 xl:pl-24">
+          </div> */}
+          {/* //lg:pl-16 xl:pl-24 */}
+          <div className="space-y-10 ">
             {/* <Newsletter /> */}
 
             <Resume />
@@ -364,17 +365,17 @@ export default function Home({ articles }) {
   )
 }
 
-export async function getStaticProps() {
-  if (process.env.NODE_ENV === 'production') {
-    await generateRssFeed()
-  }
+// export async function getStaticProps() {
+//   if (process.env.NODE_ENV === 'production') {
+//     await generateRssFeed()
+//   }
 
-  return {
-    props: {
-      articles: (await getAllArticles())
-        .slice(0, 4)
-        .map(({ component, ...meta }) => meta),
-    },
-  }
-}
+//   return {
+//     props: {
+//       articles: (await getAllArticles())
+//         .slice(0, 4)
+//         .map(({ component, ...meta }) => meta),
+//     },
+//   }
+// }
 
