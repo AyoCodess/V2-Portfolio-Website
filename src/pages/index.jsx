@@ -25,6 +25,7 @@ import { generateRssFeed } from '@/lib/generateRssFeed'
 import { getAllArticles } from '@/lib/getAllArticles'
 import { Mailto } from '@/components/Mailto'
 
+
 function MailIcon(props) {
   return (
     <svg
@@ -79,6 +80,25 @@ function ArrowDownIcon(props) {
         strokeWidth="1.5"
         strokeLinecap="round"
         strokeLinejoin="round"
+      />
+    </svg>
+  )
+}
+
+function ArrowRightIcon(props) {
+  return (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      class="h-6 w-6"
+      fill="none"
+      viewBox="0 0 24 24"
+      stroke="currentColor"
+      strokeWidth="1"
+    >
+      <path
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        d="M17 8l4 4m0 0l-4 4m4-4H3"
       />
     </svg>
   )
@@ -315,6 +335,17 @@ export default function Home({ articles }) {
         </div>
       </Container>
       <Photos />
+      <Container className="mt-24  md:mt-28">
+        <Button
+          href="/projects"
+          variant="primary"
+          className="group mt-6 w-full  "
+        >
+          View Projects
+          <ArrowRightIcon className="h-4 w-4 stroke-zinc-400 transition group-active:stroke-zinc-600 dark:group-hover:stroke-zinc-50 dark:group-active:stroke-zinc-50" />
+        </Button>
+      </Container>
+
       <Container className="mt-24 md:mt-28">
         <div className="mx-auto grid max-w-xl grid-cols-1 gap-y-20 lg:max-w-none lg:grid-cols-2">
           <div className="flex flex-col gap-16">
@@ -323,7 +354,8 @@ export default function Home({ articles }) {
             ))}
           </div>
           <div className="space-y-10 lg:pl-16 xl:pl-24">
-            <Newsletter />
+            {/* <Newsletter /> */}
+
             <Resume />
           </div>
         </div>
@@ -345,3 +377,4 @@ export async function getStaticProps() {
     },
   }
 }
+
