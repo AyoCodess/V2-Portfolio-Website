@@ -6,8 +6,6 @@ import { SimpleLayout } from '@/components/SimpleLayout'
 import logoFacebook from '@/images/logos/facebook.svg'
 import logoAyoda from '@/images/logos/ayoda.jpeg'
 import logoTailwind from '@/images/logos/tailwind.png'
-import logoOpenShuttle from '@/images/logos/open-shuttle.svg'
-import logoPlanetaria from '@/images/logos/planetaria.svg'
 
 const projects = [
   {
@@ -32,7 +30,7 @@ const projects = [
   {
     name: 'V.1 Portfolio Website',
     description:
-      'The first version of my portfolio website built vanilla HTML, CSS and JavaScript.',
+      'The first version of my portfolio website built with vanilla HTML, CSS and JavaScript.',
     link: { href: 'https://v1.ayoadesanya.com', label: 'v1.ayoadesanya.com' },
     logo: logoAyoda,
   },
@@ -75,7 +73,7 @@ export default function Projects() {
       </Head>
       <SimpleLayout
         title="These are just a few of my recent projects."
-        intro="Most of things I work on are projects I cant really showcase but here's the few I can. Check out my GitHub for a better idea of what I'm working on."
+        intro="Most of things I work on are projects I cant really showcase but here's some of the few I can. Check out my GitHub for a better idea of what I'm working on."
       >
         <ul
           role="list"

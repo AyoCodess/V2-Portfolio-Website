@@ -293,7 +293,7 @@ export default function Home({ articles }) {
           </h1>
           <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
             I’m Ayo, a software developer that works across the whole tech-stack
-            but spend most of my time on the front-end at WP Tech (Sweden),
+            but I spend most of my time on the front-end at WP Tech (Sweden),
             building internal integration systems and cross platform
             applications.
           </p>
