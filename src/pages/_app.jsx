@@ -1,4 +1,5 @@
 import { useEffect, useRef } from 'react'
+import { DefaultSeo } from 'next-seo'
 
 import { Footer } from '@/components/Footer'
 import { Header } from '@/components/Header'
@@ -21,6 +22,19 @@ export default function App({ Component, pageProps, router }) {
 
   return (
     <>
+      <DefaultSeo
+        openGraph={{
+          type: 'website',
+          locale: 'en_IE',
+          url: 'https://www.ayoadesanya.com',
+          siteName: 'Ayo Adesanya - Full-stack Developer',
+        }}
+        twitter={{
+          handle: '@ayo_imagines',
+          site: '@ayo_imagines',
+          cardType: 'summary_large_image',
+        }}
+      />
       <div className="fixed inset-0 flex justify-center sm:px-8">
         <div className="flex w-full max-w-7xl lg:px-8">
           <div className="w-full bg-white ring-1 ring-zinc-100 dark:bg-zinc-900 dark:ring-zinc-300/20" />

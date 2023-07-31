@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import clsx from 'clsx'
+import { NextSeo } from 'next-seo'
 
 import { Button } from '@/components/Button'
 import { Card } from '@/components/Card'
@@ -24,7 +25,6 @@ import { formatDate } from '@/lib/formatDate'
 import { generateRssFeed } from '@/lib/generateRssFeed'
 import { getAllArticles } from '@/lib/getAllArticles'
 import { Mailto } from '@/components/Mailto'
-
 
 function MailIcon(props) {
   return (
@@ -277,25 +277,51 @@ function Photos() {
 export default function Home({ articles }) {
   return (
     <>
-      <Head>
-        <title>
-          Ayo Adesanya - Software Developer, Team Builder, Freelancer
-        </title>
-        <meta
-          name="description"
-          content="I’m Ayo, a software developer, people lover and freelancer when I have the time. I work across the stack but primally work on the front-end at WP Tech (Sweden), building internal integration systems."
-        />
-      </Head>
+      <NextSeo
+        title="Ayo Adesanya - Full-stack Developer, People Lover & Team Builder "
+        description="I’m Ayo, a full-stack developer, people lover and freelancer when I have the time. I work across the stack but primally work on the front-end at WP Tech (Sweden), building internal integration systems."
+        canonical="https://www.canonical.ie/"
+        openGraph={{
+          url: 'https://www.url.ie/a',
+          title: 'Open Graph Title',
+          description:
+            'I’m Ayo, a full-stack developer, people lover and freelancer when I have the time. I work across the stack but primally work on the front-end at WP Tech (Sweden), building internal integration systems.',
+          images: [
+            {
+              url: '/social-image.png',
+              width: 800,
+              height: 600,
+              alt: 'Og Image Alt',
+              type: 'image/jpeg',
+            },
+            {
+              url: '/social-image.png',
+              width: 900,
+              height: 800,
+              alt: 'Og Image Alt Second',
+              type: 'image/jpeg',
+            },
+            { url: '/social-image.png' },
+            { url: '/social-image.png' },
+          ],
+          siteName:
+            'Ayo Adesanya - Full-stack Developer, People Lover & Team Builder ',
+        }}
+        twitter={{
+          handle: '@ayo_imagines',
+          site: '@ayo_imagines',
+          cardType: 'summary_large_image',
+        }}
+      />
       <Container className="mt-9">
         <div className="max-w-2xl">
           <h1 className="text-4xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-5xl">
-            Ayo Adesanya - Software Developer, People Lover & Team Builder
+            Ayo Adesanya - Full-stack Developer, People Lover & Team Builder
           </h1>
           <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
-            I’m Ayo, a software developer that works across the whole tech-stack
-            but I spend most of my time on the front-end at WP Tech (Sweden),
-            building internal integration systems and cross platform
-            applications.
+            I’m Ayo, a full-stack developer, people lover and freelancer when I
+            have the time. I work across the stack but primally work on the
+            front-end at WP Tech (Sweden), building internal integration systems
           </p>
           <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
             At this time I have space for freelance work, so if you have a
