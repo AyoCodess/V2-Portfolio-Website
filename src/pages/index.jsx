@@ -279,26 +279,27 @@ export default function Home({ articles }) {
     <>
       <NextSeo
         title="Ayo Adesanya - Full-stack Developer, People Lover & Team Builder "
-        description="I’m Ayo, a full-stack developer, people lover and freelancer when I have the time. I work across the stack but primally work on the front-end at WP Tech (Sweden), building internal integration systems."
-        canonical="https://www.canonical.ie/"
+        description="I’m Ayo, a full-stack developer, people lover and team builder when I have the time. I work across the stack but primally work on the front-end at WP Tech (Sweden), building internal integration systems."
+        canonical="https://www.ayoadesanya.com/"
         openGraph={{
-          url: 'https://www.url.ie/a',
-          title: 'Open Graph Title',
+          url: 'https://www.ayoadesanya.com/',
+          title:
+            'Ayo Adesanya - Full-stack Developer, People Lover & Team Builder',
           description:
-            'I’m Ayo, a full-stack developer, people lover and freelancer when I have the time. I work across the stack but primally work on the front-end at WP Tech (Sweden), building internal integration systems.',
+            'I’m Ayo, a full-stack developer, people lover and team builder when I have the time. I work across the stack but primally work on the front-end at WP Tech (Sweden), building internal integration systems.',
           images: [
             {
               url: '/social-image.png',
               width: 800,
               height: 600,
-              alt: 'Og Image Alt',
+              alt: 'Ayo Adesanya - Full-stack Developer, People Lover & Team Builder',
               type: 'image/jpeg',
             },
             {
               url: '/social-image.png',
               width: 900,
               height: 800,
-              alt: 'Og Image Alt Second',
+              alt: 'Ayo Adesanya - Full-stack Developer, People Lover & Team Builder',
               type: 'image/jpeg',
             },
             { url: '/social-image.png' },
@@ -319,13 +320,13 @@ export default function Home({ articles }) {
             Ayo Adesanya - Full-stack Developer, People Lover & Team Builder
           </h1>
           <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
-            I’m Ayo, a full-stack developer, people lover and freelancer when I
-            have the time. I work across the stack but primally work on the
-            front-end at WP Tech (Sweden), building internal integration systems
+            I’m Ayo, a full-stack developer, I work across the stack but
+            primally work on the front-end at WP Tech (Sweden), building
+            internal integration systems.
           </p>
           <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
-            At this time I have space for freelance work, so if you have a
-            project email me at{' '}
+            At this time I have space for limited freelance work, so if you have
+            a project email me at{' '}
             <span className="text-blue-500 hover:text-blue-600">
               <Mailto
                 email="ayo@ayoadesanya.com"

@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import Image from 'next/image'
+import { NextSeo } from 'next-seo'
 
 import { Card } from '@/components/Card'
 import { SimpleLayout } from '@/components/SimpleLayout'
@@ -64,13 +65,43 @@ function LinkIcon(props) {
 export default function Projects() {
   return (
     <>
-      <Head>
-        <title>Projects - Ayo Adesanya</title>
-        <meta
-          name="description"
-          content="Things I’ve made trying to put my dent in the universe."
-        />
-      </Head>
+      <NextSeo
+        title="Projects - Ayo Adesanya | Full-stack Developer, People Lover & Team Builder "
+        description="I’m Ayo, a full-stack developer, people lover and team builder when I have the time. I work across the stack but primally work on the front-end at WP Tech (Sweden), building internal integration systems."
+        canonical="https://www.ayoadesanya.com/"
+        openGraph={{
+          url: 'https://www.ayoadesanya.com/',
+          title:
+            'Ayo Adesanya - Full-stack Developer, People Lover & Team Builder',
+          description:
+            'I’m Ayo, a full-stack developer, people lover and team builder when I have the time. I work across the stack but primally work on the front-end at WP Tech (Sweden), building internal integration systems.',
+          images: [
+            {
+              url: '/social-image.png',
+              width: 800,
+              height: 600,
+              alt: 'Ayo Adesanya - Full-stack Developer, People Lover & Team Builder',
+              type: 'image/jpeg',
+            },
+            {
+              url: '/social-image.png',
+              width: 900,
+              height: 800,
+              alt: 'Ayo Adesanya - Full-stack Developer, People Lover & Team Builder',
+              type: 'image/jpeg',
+            },
+            { url: '/social-image.png' },
+            { url: '/social-image.png' },
+          ],
+          siteName:
+            'Ayo Adesanya - Full-stack Developer, People Lover & Team Builder ',
+        }}
+        twitter={{
+          handle: '@ayo_imagines',
+          site: '@ayo_imagines',
+          cardType: 'summary_large_image',
+        }}
+      />
       <SimpleLayout
         title="These are just a few of my recent projects."
         intro="Most of things I work on are projects I cant really showcase but here's some of the few I can. Check out my GitHub for a better idea of what I'm working on."

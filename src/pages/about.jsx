@@ -2,6 +2,7 @@ import clsx from 'clsx'
 import Head from 'next/head'
 import Image from 'next/image'
 import Link from 'next/link'
+import { NextSeo } from 'next-seo'
 
 import { Container } from '@/components/Container'
 import {
@@ -40,13 +41,43 @@ function MailIcon(props) {
 export default function About() {
   return (
     <>
-      <Head>
-        <title>About - Ayo Adesanya</title>
-        <meta
-          name="description"
-          content="I’m Ayo Adesanya. I live in New York City, where I design the future."
-        />
-      </Head>
+      <NextSeo
+        title="About - Ayo Adesanya | Full-stack Developer, People Lover & Team Builder "
+        description="I’m Ayo, a full-stack developer, people lover and team builder when I have the time. I work across the stack but primally work on the front-end at WP Tech (Sweden), building internal integration systems."
+        canonical="https://www.ayoadesanya.com/"
+        openGraph={{
+          url: 'https://www.ayoadesanya.com/',
+          title:
+            'Ayo Adesanya - Full-stack Developer, People Lover & Team Builder',
+          description:
+            'I’m Ayo, a full-stack developer, people lover and team builder when I have the time. I work across the stack but primally work on the front-end at WP Tech (Sweden), building internal integration systems.',
+          images: [
+            {
+              url: '/social-image.png',
+              width: 800,
+              height: 600,
+              alt: 'Ayo Adesanya - Full-stack Developer, People Lover & Team Builder',
+              type: 'image/jpeg',
+            },
+            {
+              url: '/social-image.png',
+              width: 900,
+              height: 800,
+              alt: 'Ayo Adesanya - Full-stack Developer, People Lover & Team Builder',
+              type: 'image/jpeg',
+            },
+            { url: '/social-image.png' },
+            { url: '/social-image.png' },
+          ],
+          siteName:
+            'Ayo Adesanya - Full-stack Developer, People Lover & Team Builder ',
+        }}
+        twitter={{
+          handle: '@ayo_imagines',
+          site: '@ayo_imagines',
+          cardType: 'summary_large_image',
+        }}
+      />
       <Container className="mt-16 sm:mt-32">
         <div className="grid grid-cols-1 gap-y-16 lg:grid-cols-2 lg:grid-rows-[auto_1fr] lg:gap-y-12">
           <div className="lg:pl-20">
