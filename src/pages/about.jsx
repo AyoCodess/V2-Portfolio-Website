@@ -111,8 +111,9 @@ export default function About() {
               </p>
 
               <p>
-                My Keywords: #collectiveAccountability #climateJustice
-                #socialJustice #techforgood
+                <span className="font-bold">My Keywords:</span>{' '}
+                #collectiveAccountability #climateJustice #socialJustice
+                #techforgood
               </p>
             </div>
           </div>
