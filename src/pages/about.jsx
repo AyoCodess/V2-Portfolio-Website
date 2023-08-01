@@ -97,19 +97,19 @@ export default function About() {
             </h1>
             <div className="mt-6 space-y-7 text-base text-zinc-600 dark:text-zinc-400">
               <p>
-                I’m a software developer who can work across the whole stack
-                with most of my professional experience being in the front-end.
+                I work across the stack but primally work on the front-end at WP
+                Tech (Sweden), leading the front-end development of our
+                cross-platform applications and contributing too the building,
+                digitalization and automation of our internal work-flows.
               </p>
               <p>
-                Interests: tech digitalisation, system integrations,
-                sustainability, love and relationships and Japanese anime. I
-                thrive in teams, helping others grow and building culture that
-                fosters genuine collaboration and connection.
+                <span className="font-bold">Interests:</span> tech
+                digitalization, system integrations, sustainability, love and
+                relationships and Japanese anime. I thrive in teams, helping
+                others grow and building culture that fosters genuine
+                collaboration and connection.
               </p>
-              <p>
-                Working at WP Tech (Sweden) I lead the front-end development and
-                tooling of our cross-platform applications.
-              </p>
+
               <p>
                 My Keywords: #collectiveAccountability #climateJustice
                 #socialJustice #techforgood

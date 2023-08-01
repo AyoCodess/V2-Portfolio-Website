@@ -320,9 +320,10 @@ export default function Home({ articles }) {
             Ayo Adesanya - Full-stack Developer, People Lover & Team Builder
           </h1>
           <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
-            I’m Ayo, a full-stack developer, I work across the stack but
-            primally work on the front-end at WP Tech (Sweden), building
-            internal integration systems.
+            I work across the stack but primally work on the front-end at WP
+            Tech (Sweden), leading the front-end development of our
+            cross-platform applications and contributing too the building,
+            digitalization and automation of our internal work-flows.
           </p>
           <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
             At this time I have space for limited freelance work, so if you have
