@@ -99,7 +99,7 @@ export default function About() {
               <p>
                 I work across the stack but primally work on the front-end at WP
                 Tech (Sweden), leading the front-end development of our
-                cross-platform applications and contributing too the building,
+                cross-platform applications while contributing to the building,
                 digitalization and automation of our internal work-flows.
               </p>
               <p>
