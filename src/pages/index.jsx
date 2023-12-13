@@ -236,7 +236,7 @@ function Resume() {
       </ol>
       <Button
         external={true}
-        href="/cv/Ayo Adesanya - Web Developer Resume.pdf"
+        href="/cv/Ayo Adesanya - Javascript Developer Resume.pdf"
         variant="secondary"
         className="group mt-6 w-full"
       >
@@ -278,35 +278,35 @@ export default function Home({ articles }) {
   return (
     <>
       <NextSeo
-        title="Ayo Adesanya - Full-stack Developer, People Lover & Team Builder "
-        description="I’m Ayo, a full-stack developer, people lover and team builder when I have the time. I work across the stack but primally work on the front-end at WP Tech (Sweden), building internal integration systems."
+        title="Ayo Adesanya - Full-stack Developer, People Lover & Team player "
+        description="I’m Ayo, a full-stack developer, people lover and great team player. I work across the stack but primally work on the front-end at WP Tech (Sweden), building internal integration systems and mobile applications."
         canonical="https://www.ayoadesanya.com/"
         openGraph={{
           url: 'https://www.ayoadesanya.com/',
           title:
-            'Ayo Adesanya - Full-stack Developer, People Lover & Team Builder',
+            'Ayo Adesanya - Full-stack Developer, People Lover & team player',
           description:
-            'I’m Ayo, a full-stack developer, people lover and team builder when I have the time. I work across the stack but primally work on the front-end at WP Tech (Sweden), building internal integration systems.',
+            'I’m Ayo, a full-stack developer, people lover and team player. I work across the stack but primally work on the front-end at WP Tech (Sweden), building internal integration systems and mobile applications.',
           images: [
             {
               url: '/social-image.png',
               width: 800,
               height: 600,
-              alt: 'Ayo Adesanya - Full-stack Developer, People Lover & Team Builder',
+              alt: 'Ayo Adesanya - Full-stack Developer, People Lover & Team player',
               type: 'image/jpeg',
             },
             {
               url: '/social-image.png',
               width: 900,
               height: 800,
-              alt: 'Ayo Adesanya - Full-stack Developer, People Lover & Team Builder',
+              alt: 'Ayo Adesanya - Full-stack Developer, People Lover & Team player',
               type: 'image/jpeg',
             },
             { url: '/social-image.png' },
             { url: '/social-image.png' },
           ],
           siteName:
-            'Ayo Adesanya - Full-stack Developer, People Lover & Team Builder ',
+            'Ayo Adesanya - Full-stack Developer, People Lover & Team player ',
         }}
         twitter={{
           handle: '@ayo_imagines',
@@ -317,7 +317,7 @@ export default function Home({ articles }) {
       <Container className="mt-9">
         <div className="max-w-2xl">
           <h1 className="text-4xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-5xl">
-            Ayo Adesanya - Full-stack Developer, People Lover & Team Builder
+            Ayo Adesanya - Full-stack Developer, People Lover & Team player
           </h1>
           <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
             I work across the stack but primally work on the front-end at WP
@@ -326,8 +326,8 @@ export default function Home({ articles }) {
             digitalization and automation of our internal work-flows.
           </p>
           <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
-            At this time I have space for limited freelance work, so if you have
-            a project email me at{' '}
+            At this time I don't have space for freelance work, but you can
+            still email me{' '}
             <span className="text-blue-500 hover:text-blue-600">
               <Mailto
                 email="ayo@ayoadesanya.com"
@@ -384,7 +384,6 @@ export default function Home({ articles }) {
           {/* //lg:pl-16 xl:pl-24 */}
           <div className="space-y-10 ">
             {/* <Newsletter /> */}
-
             <Resume />
           </div>
         </div>
@@ -406,4 +405,3 @@ export default function Home({ articles }) {
 //     },
 //   }
 // }
-

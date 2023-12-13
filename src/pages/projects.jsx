@@ -1,14 +1,56 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import { NextSeo } from 'next-seo'
+import Link from 'next/link'
 
 import { Card } from '@/components/Card'
 import { SimpleLayout } from '@/components/SimpleLayout'
 import logoFacebook from '@/images/logos/facebook.svg'
 import logoAyoda from '@/images/logos/ayoda.jpeg'
 import logoTailwind from '@/images/logos/tailwind.png'
+import wptechLogo from '@/images/logos/wptech.jpeg'
+import wpappenLogo from '@/images/logos/wpappen.png'
 
 const projects = [
+  {
+    name: 'WP Appen (IOS)',
+    description:
+      'Built front-end and contributed to API and backend for WP Appen internal app for managing employees.',
+    link: {
+      href: 'https://apps.apple.com/se/app/wp-appen/id6463141468',
+      label: 'App Store',
+    },
+    logo: wpappenLogo,
+    details: {
+      href: '/wp_appen_details',
+      label: 'Read more',
+    },
+  },
+  {
+    name: 'WP Appen (Android)',
+    description:
+      'Built front-end and contributed to API and backend for WP Appen internal app for managing employees.',
+    link: {
+      href: 'https://play.google.com/store/apps/details?id=com.wptechab.wpappen/',
+      label: 'Play Store',
+    },
+    logo: wpappenLogo,
+    details: {
+      href: '/wp_appen_details',
+      label: 'Read more',
+    },
+  },
+  {
+    name: 'WP Tech Website',
+    description:
+      'A Next.js 13 website for WP Tech, a Swedish company that builds system integrations for companies.',
+    link: {
+      href: 'https://aclibrary.vercel.app/',
+      label: 'https://wptech.se/en',
+    },
+    logo: wptechLogo,
+    details: null,
+  },
   {
     name: 'AC Component Library',
     description:
@@ -18,6 +60,15 @@ const projects = [
       label: 'aclibrary.vercel.app',
     },
     logo: logoTailwind,
+    details: null,
+  },
+  {
+    name: 'V.1 Portfolio Website',
+    description:
+      'The first version of my portfolio website built with vanilla HTML, CSS and JavaScript.',
+    link: { href: 'https://v1.ayoadesanya.com', label: 'v1.ayoadesanya.com' },
+    logo: logoAyoda,
+    details: null,
   },
   {
     name: 'Facebook Clone',
@@ -27,14 +78,9 @@ const projects = [
       label: 'leaveyourmark.vercel.app',
     },
     logo: logoFacebook,
+    details: null,
   },
-  {
-    name: 'V.1 Portfolio Website',
-    description:
-      'The first version of my portfolio website built with vanilla HTML, CSS and JavaScript.',
-    link: { href: 'https://v1.ayoadesanya.com', label: 'v1.ayoadesanya.com' },
-    logo: logoAyoda,
-  },
+
   // {
   //   name: 'cosmOS',
   //   description:
@@ -112,7 +158,7 @@ export default function Projects() {
         >
           {projects.map((project) => (
             <Card as="li" key={project.name}>
-              <div className="relative z-10 flex h-12 w-12 items-center justify-center rounded-full bg-white shadow-md shadow-zinc-800/5 ring-1 ring-zinc-900/5 dark:border dark:border-zinc-700/50 dark:bg-zinc-800 dark:ring-0">
+              <div className=" flex h-12 w-12 items-center justify-center rounded-full bg-white shadow-md shadow-zinc-800/5 ring-1 ring-zinc-900/5 dark:border dark:border-zinc-700/50 dark:bg-zinc-800 dark:ring-0">
                 <Image
                   src={project.logo}
                   alt=""
@@ -121,13 +167,32 @@ export default function Projects() {
                 />
               </div>
               <h2 className="mt-6 text-base font-semibold text-zinc-800 dark:text-zinc-100">
-                <Card.Link href={project.link.href}>{project.name}</Card.Link>
+                <p>{project.name}</p>
               </h2>
               <Card.Description>{project.description}</Card.Description>
-              <p className="relative z-10 mt-6 flex text-sm font-medium text-zinc-400 transition group-hover:text-teal-500 dark:text-zinc-200">
-                <LinkIcon className="h-6 w-6 flex-none" />
-                <span className="ml-2">{project.link.label}</span>
-              </p>
+
+              <a
+                rel="noopener noreferrer"
+                target="_blank"
+                href={project.link.href}
+                className="relative z-10 mt-6 flex cursor-pointer text-sm font-medium text-zinc-400 transition  dark:text-zinc-200"
+              >
+                <div className="flex hover:text-teal-500">
+                  <LinkIcon className="h-6 w-6 flex-none" />
+                  <span className="ml-2 ">{project.link.label}</span>
+                </div>
+              </a>
+
+              {project.details && (
+                <Link
+                  href={project.details.href}
+                  className="mt-6 flex cursor-pointer text-sm font-medium text-zinc-400 transition dark:text-zinc-200"
+                >
+                  <span className="hover:text-teal-500">
+                    {project.details.label}
+                  </span>
+                </Link>
+              )}
             </Card>
           ))}
         </ul>
