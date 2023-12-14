@@ -45,14 +45,14 @@ const projects = [
     description:
       'A Next.js 13 website for WP Tech, a Swedish company that builds system integrations for companies.',
     link: {
-      href: 'https://aclibrary.vercel.app/',
+      href: 'https://www.wptech.se',
       label: 'https://wptech.se/en',
     },
     logo: wptechLogo,
     details: null,
   },
   {
-    name: 'AC Component Library',
+    name: 'AC Component Library (Early Alpha)',
     description:
       'A Tailwind and Framer Motion based component library for React.',
     link: {
