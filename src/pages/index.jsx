@@ -326,7 +326,7 @@ export default function Home({ articles }) {
             digitalization and automation of our internal work-flows.
           </p>
           <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
-            At this time I don't have space for freelance work, but you can
+            At this time I don&apos;t have space for freelance work, but you can
             still email me{' '}
             <span className="text-blue-500 hover:text-blue-600">
               <Mailto
