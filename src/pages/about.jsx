@@ -117,13 +117,12 @@ export default function About() {
           </div>
           <div className="lg:order-first lg:row-span-2">
             <h1 className="text-4xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-5xl">
-              I’m Ayo Adesanya. I live in Sweden, where I help automate internal
-              business processes.
+              Hey, I’m Ayo and i’m curious about how things are built
             </h1>
             <div className="mt-6 space-y-7 text-base text-zinc-600 dark:text-zinc-400">
               <p>
-                I’m Ayo, a full-stack developer, people lover and great team
-                player. I work across the stack at WP Tech (Sweden), building
+                A full-stack developer, people lover and great team player. I
+                work across the stack at WP Tech (Sweden), building
                 cross-platform systems and mobile applications, while
                 contributing too the building, digitalization and automation of
                 our internal work-flows.
