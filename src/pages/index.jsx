@@ -160,7 +160,7 @@ function Resume() {
   let resume = [
     {
       company: 'Wp Tech',
-      title: 'Frontend Developer',
+      title: 'Web & Mobile Developer',
       logo: WPTech,
       start: '2022',
       end: {
@@ -326,8 +326,7 @@ export default function Home({ articles }) {
             building, digitalization and automation of our internal work-flows.
           </p>
           <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
-            At this time I don&apos;t have space for freelance work, but you can
-            still email me{' '}
+            I no longer accept freelance work, but you can still email me{' '}
             <span className="text-blue-500 hover:text-blue-600">
               <Mailto
                 email="ayo@ayoadesanya.com"
