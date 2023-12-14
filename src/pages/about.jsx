@@ -68,14 +68,14 @@ export default function About() {
     <>
       <NextSeo
         title="About - Ayo Adesanya | Full-stack Developer, People Lover & Team Builder "
-        description="I’m Ayo, a full-stack developer, people lover and team builder when I have the time. I work across the stack but primally work on the front-end at WP Tech (Sweden), building internal integration systems."
+        description="I’m Ayo, a full-stack developer, people lover and great team player. I work across the stack at WP Tech (Sweden building cross-platform systems and mobile applications"
         canonical="https://www.ayoadesanya.com/"
         openGraph={{
           url: 'https://www.ayoadesanya.com/',
           title:
             'Ayo Adesanya - Full-stack Developer, People Lover & Team Builder',
           description:
-            'I’m Ayo, a full-stack developer, people lover and team builder when I have the time. I work across the stack but primally work on the front-end at WP Tech (Sweden), building internal integration systems.',
+            'I’m Ayo, a full-stack developer, people lover and great team player. I work across the stack at WP Tech (Sweden building cross-platform systems and mobile applications',
           images: [
             {
               url: '/social-image.png',
@@ -122,10 +122,11 @@ export default function About() {
             </h1>
             <div className="mt-6 space-y-7 text-base text-zinc-600 dark:text-zinc-400">
               <p>
-                I work across the stack but primally work on the front-end at WP
-                Tech (Sweden), leading the front-end development of our
-                cross-platform applications while contributing to the building,
-                digitalization and automation of our internal work-flows.
+                I’m Ayo, a full-stack developer, people lover and great team
+                player. I work across the stack at WP Tech (Sweden), building
+                cross-platform systems and mobile applications, while
+                contributing too the building, digitalization and automation of
+                our internal work-flows.
               </p>
               <p>
                 <span className="font-bold">Interests:</span> tech

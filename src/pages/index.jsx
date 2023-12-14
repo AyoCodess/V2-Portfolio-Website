@@ -279,14 +279,14 @@ export default function Home({ articles }) {
     <>
       <NextSeo
         title="Ayo Adesanya - Full-stack Developer, People Lover & Team player "
-        description="I’m Ayo, a full-stack developer, people lover and great team player. I work across the stack but primally work on the front-end at WP Tech (Sweden), building internal integration systems and mobile applications."
+        description="I’m Ayo, a full-stack developer, people lover and great team player. I work across the stack at WP Tech (Sweden building cross-platform systems and mobile applications"
         canonical="https://www.ayoadesanya.com/"
         openGraph={{
           url: 'https://www.ayoadesanya.com/',
           title:
             'Ayo Adesanya - Full-stack Developer, People Lover & team player',
           description:
-            'I’m Ayo, a full-stack developer, people lover and team player. I work across the stack but primally work on the front-end at WP Tech (Sweden), building internal integration systems and mobile applications.',
+            'I’m Ayo, a full-stack developer, people lover and great team player. I work across the stack at WP Tech (Sweden), building cross-platform systems and mobile applications',
           images: [
             {
               url: '/social-image.png',
@@ -320,10 +320,10 @@ export default function Home({ articles }) {
             Ayo Adesanya - Full-stack Developer, People Lover & Team player
           </h1>
           <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
-            I work across the stack but primally work on the front-end at WP
-            Tech (Sweden), leading the front-end development of our
-            cross-platform applications while contributing too the building,
-            digitalization and automation of our internal work-flows.
+            I’m Ayo, a full-stack developer, people lover and great team player.
+            I work across the stack at WP Tech (Sweden), building cross-platform
+            systems and mobile applications, while contributing too the
+            building, digitalization and automation of our internal work-flows.
           </p>
           <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
             At this time I don&apos;t have space for freelance work, but you can
