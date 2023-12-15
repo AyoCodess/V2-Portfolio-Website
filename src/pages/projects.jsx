@@ -149,7 +149,7 @@ export default function Projects() {
       />
       <SimpleLayout
         title="These are just a few of my recent projects."
-        intro="Here's a sneak peek into my recent projects. Keep in mind that the bulk of my work is confidential and can't be showcased here. For a deeper dive, my GitHub is the place to go. ."
+        intro="Here's a sneak peek into my recent projects. Keep in mind that the bulk of my work is confidential and can't be showcased here. For a deeper dive, my GitHub is the place to go."
       >
         <ul
           role="list"
