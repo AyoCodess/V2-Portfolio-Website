@@ -18,35 +18,35 @@ export default function Projects() {
   return (
     <>
       <NextSeo
-        title="Projects - Ayo Adesanya | Full-stack Developer, People Person & Team Builder "
-        description="I’m Ayo, a full-stack developer, people person and team builder when I have the time. I work across the stack but primally work on the front-end at WP Tech (Sweden), building internal integration systems."
+        title="Projects - Ayo Adesanya | Full-stack Developer, People Connector & Stellar Team Player "
+        description="I’m Ayo, a full-stack developer, people connector and team builder when I have the time. I work across the stack but primally work on the front-end at WP Tech (Sweden), building internal integration systems."
         canonical="https://www.ayoadesanya.com/"
         openGraph={{
           url: 'https://www.ayoadesanya.com/',
           title:
-            'Ayo Adesanya - Full-stack Developer, People Person & Team Builder',
+            'Ayo Adesanya - Full-stack Developer, People Connector & Stellar Team Player',
           description:
-            'I’m Ayo, a full-stack developer, people person and team builder when I have the time. I work across the stack but primally work on the front-end at WP Tech (Sweden), building internal integration systems.',
+            'I’m Ayo, a full-stack developer, people connector and team builder when I have the time. I work across the stack but primally work on the front-end at WP Tech (Sweden), building internal integration systems.',
           images: [
             {
               url: '/social-image.png',
               width: 800,
               height: 600,
-              alt: 'Ayo Adesanya - Full-stack Developer, People Person & Team Builder',
+              alt: 'Ayo Adesanya - Full-stack Developer, People Connector & Stellar Team Player',
               type: 'image/jpeg',
             },
             {
               url: '/social-image.png',
               width: 900,
               height: 800,
-              alt: 'Ayo Adesanya - Full-stack Developer, People Person & Team Builder',
+              alt: 'Ayo Adesanya - Full-stack Developer, People Connector & Stellar Team Player',
               type: 'image/jpeg',
             },
             { url: '/social-image.png' },
             { url: '/social-image.png' },
           ],
           siteName:
-            'Ayo Adesanya - Full-stack Developer, People Person & Team Builder ',
+            'Ayo Adesanya - Full-stack Developer, People Connector & Stellar Team Player ',
         }}
         twitter={{
           handle: '@ayo_imagines',

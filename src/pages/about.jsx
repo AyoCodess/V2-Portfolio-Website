@@ -61,35 +61,35 @@ export default function About() {
   return (
     <>
       <NextSeo
-        title="About - Ayo Adesanya | Full-stack Developer, People Person & Team Builder "
-        description="I’m Ayo, a full-stack developer, people person and great team player. I work across the stack at WP Tech (Sweden building cross-platform systems and mobile applications"
+        title="About - Ayo Adesanya | Full-stack Developer, People Connector & Stellar Team Player"
+        description="I’m Ayo, a full-stack developer, people connector and stellar team player. I work across the stack at WP Tech (Sweden building cross-platform systems and mobile applications"
         canonical="https://www.ayoadesanya.com/"
         openGraph={{
           url: 'https://www.ayoadesanya.com/',
           title:
-            'Ayo Adesanya - Full-stack Developer, People Person & Team Builder',
+            'Ayo Adesanya - Full-stack Developer, People Connector & Stellar Team Player',
           description:
-            'I’m Ayo, a full-stack developer, people person and great team player. I work across the stack at WP Tech (Sweden building cross-platform systems and mobile applications',
+            'I’m Ayo, a full-stack developer, people connector and stellar team player. I work across the stack at WP Tech (Sweden building cross-platform systems and mobile applications',
           images: [
             {
               url: '/social-image.png',
               width: 800,
               height: 600,
-              alt: 'Ayo Adesanya - Full-stack Developer, People Person & Team Builder',
+              alt: 'Ayo Adesanya - Full-stack Developer, People Connector & Stellar Team Player',
               type: 'image/jpeg',
             },
             {
               url: '/social-image.png',
               width: 900,
               height: 800,
-              alt: 'Ayo Adesanya - Full-stack Developer, People Person & Team Builder',
+              alt: 'Ayo Adesanya - Full-stack Developer, People Connector & Stellar Team Player',
               type: 'image/jpeg',
             },
             { url: '/social-image.png' },
             { url: '/social-image.png' },
           ],
           siteName:
-            'Ayo Adesanya - Full-stack Developer, People Person & Team Builder ',
+            'Ayo Adesanya - Full-stack Developer, People Connector & Stellar Team Player ',
         }}
         twitter={{
           handle: '@ayo_imagines',
@@ -115,7 +115,7 @@ export default function About() {
             </h1>
             <div className="mt-6 space-y-7 text-base text-zinc-600 dark:text-zinc-400">
               <p>
-                A full-stack developer, people person and great great team
+                A full-stack developer, people connector and stellar team
                 player. I work across the stack at WP Tech (Sweden), building
                 cross-platform systems and mobile applications, while
                 contributing too the building, digitalization and automation of
