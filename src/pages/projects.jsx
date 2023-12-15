@@ -31,7 +31,7 @@ const projects = [
     description:
       'Built the front-end and contributed to API and backend for the WP Appen internal app for managing employees.',
     link: {
-      href: 'https://play.google.com/store/apps/details?id=com.wptechab.wpappen/',
+      href: 'https://play.google.com/store/search?q=wp+appen&c=apps',
       label: 'Play Store',
     },
     logo: wpappenLogo,
