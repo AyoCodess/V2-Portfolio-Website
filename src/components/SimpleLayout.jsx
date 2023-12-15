@@ -12,7 +12,7 @@ export function SimpleLayout({ title, intro, children, extra = true }) {
         </p>
         {extra && (
           <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
-            You can view older projects on version 1 of my portfolio website.
+            To see older projects, check out version 1 of my portfolio website.
           </p>
         )}
       </header>
