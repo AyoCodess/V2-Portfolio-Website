@@ -128,17 +128,17 @@ export default function About() {
                 our internal work-flows.
               </p>
               <p>
-                <span className="font-bold">Interests:</span> tech
-                digitalization, system integrations, sustainability, love and
-                relationships and Japanese anime. I thrive in teams, helping
-                others grow and building culture that fosters genuine
+                <span className="font-bold">Interests:</span> Tech
+                digitalization, system integrations, sustainability, Love and
+                Relationships and Japanese anime. I thrive in teams, love to
+                learn and be apart of a culture that fosters genuine
                 collaboration and connection.
               </p>
 
               <p>
                 <span className="font-bold">My Keywords:</span>{' '}
                 #collectiveAccountability #climateJustice #socialJustice
-                #techforgood
+                #laughterIsMedicine
               </p>
             </div>
           </div>
