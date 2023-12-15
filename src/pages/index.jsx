@@ -1,29 +1,22 @@
-import Image from 'next/image'
 import clsx from 'clsx'
 import { NextSeo } from 'next-seo'
+import Image from 'next/image'
 
 import { Button } from '@/components/Button'
 import { Card } from '@/components/Card'
 import { Container } from '@/components/Container'
-import {
-  GitHubIcon,
-  InstagramIcon,
-  LinkedInIcon,
-  TwitterIcon,
-} from '@/components/SocialIcons'
-import WPTech from '@/images/logos/wptech.jpeg'
-import Ayoda from '@/images/logos/ayoda.jpeg'
-import Pheno from '@/images/logos/pheno.jpeg'
-import SHB from '@/images/logos/sbh.jpeg'
+import { Mailto } from '@/components/Mailto'
+import { GitHubIcon, LinkedInIcon } from '@/components/SocialIcons'
 import image1 from '@/images/image-split-ayo/row-1-column-1.jpg'
 import image2 from '@/images/image-split-ayo/row-1-column-2.jpg'
 import image3 from '@/images/image-split-ayo/row-1-column-3.jpg'
 import image4 from '@/images/image-split-ayo/row-1-column-4.jpg'
 import image5 from '@/images/image-split-ayo/row-1-column-5.jpg'
+import Ayoda from '@/images/logos/ayoda.jpeg'
+import Pheno from '@/images/logos/pheno.jpeg'
+import SHB from '@/images/logos/sbh.jpeg'
+import WPTech from '@/images/logos/wptech.jpeg'
 import { formatDate } from '@/lib/formatDate'
-import { generateRssFeed } from '@/lib/generateRssFeed'
-import { getAllArticles } from '@/lib/getAllArticles'
-import { Mailto } from '@/components/Mailto'
 
 function MailIcon(props) {
   return (
@@ -277,35 +270,35 @@ export default function Home({ articles }) {
   return (
     <>
       <NextSeo
-        title="Ayo Adesanya - Full-stack Developer, People Lover & Team player "
-        description="I’m Ayo, a full-stack developer, people lover and great team player. I work across the stack at WP Tech (Sweden building cross-platform systems and mobile applications"
+        title="Ayo Adesanya - Full-stack Developer, People Person & Team player "
+        description="I’m Ayo, a full-stack developer, people person and great team player. I work across the stack at WP Tech (Sweden building cross-platform systems and mobile applications"
         canonical="https://www.ayoadesanya.com/"
         openGraph={{
           url: 'https://www.ayoadesanya.com/',
           title:
-            'Ayo Adesanya - Full-stack Developer, People Lover & team player',
+            'Ayo Adesanya - Full-stack Developer, People Person & team player',
           description:
-            'I’m Ayo, a full-stack developer, people lover and great team player. I work across the stack at WP Tech (Sweden), building cross-platform systems and mobile applications',
+            'I’m Ayo, a full-stack developer, people person and great team player. I work across the stack at WP Tech (Sweden), building cross-platform systems and mobile applications',
           images: [
             {
               url: '/social-image.png',
               width: 800,
               height: 600,
-              alt: 'Ayo Adesanya - Full-stack Developer, People Lover & Team player',
+              alt: 'Ayo Adesanya - Full-stack Developer, People Person & Team player',
               type: 'image/jpeg',
             },
             {
               url: '/social-image.png',
               width: 900,
               height: 800,
-              alt: 'Ayo Adesanya - Full-stack Developer, People Lover & Team player',
+              alt: 'Ayo Adesanya - Full-stack Developer, People Person & Team player',
               type: 'image/jpeg',
             },
             { url: '/social-image.png' },
             { url: '/social-image.png' },
           ],
           siteName:
-            'Ayo Adesanya - Full-stack Developer, People Lover & Team player ',
+            'Ayo Adesanya - Full-stack Developer, People Person & Team player ',
         }}
         twitter={{
           handle: '@ayo_imagines',
@@ -316,13 +309,14 @@ export default function Home({ articles }) {
       <Container className="mt-9">
         <div className="max-w-2xl">
           <h1 className="text-4xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-5xl">
-            Ayo Adesanya - Full-stack Developer, People Lover & Team player
+            Ayo Adesanya - Full-stack Developer, People Person & Team player
           </h1>
           <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
-            I’m Ayo, a full-stack developer, people lover and great team player.
-            I work across the stack at WP Tech (Sweden), building cross-platform
-            systems and mobile applications, while contributing too the
-            building, digitalization and automation of our internal work-flows.
+            I’m Ayo, a full-stack developer, people person and great team
+            player. I work across the stack at WP Tech (Sweden), building
+            cross-platform systems and mobile applications, while contributing
+            too the building, digitalization and automation of our internal
+            work-flows.
           </p>
           <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
             I no longer accept freelance work, but you can still email me{' '}

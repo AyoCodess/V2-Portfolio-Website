@@ -1,15 +1,7 @@
-import Head from 'next/head'
-import Image from 'next/image'
 import { NextSeo } from 'next-seo'
 
-import { Card } from '@/components/Card'
-import { SimpleLayout } from '@/components/SimpleLayout'
-import logoFacebook from '@/images/logos/facebook.svg'
-import logoAyoda from '@/images/logos/ayoda.jpeg'
-import logoTailwind from '@/images/logos/tailwind.png'
-import wptechLogo from '@/images/logos/wptech.jpeg'
-import wpappenLogo from '@/images/logos/wpappen.png'
 import LazyYoutube from '@/components/LazyYoutube'
+import { SimpleLayout } from '@/components/SimpleLayout'
 
 function LinkIcon(props) {
   return (
@@ -26,35 +18,35 @@ export default function Projects() {
   return (
     <>
       <NextSeo
-        title="Projects - Ayo Adesanya | Full-stack Developer, People Lover & Team Builder "
-        description="I’m Ayo, a full-stack developer, people lover and team builder when I have the time. I work across the stack but primally work on the front-end at WP Tech (Sweden), building internal integration systems."
+        title="Projects - Ayo Adesanya | Full-stack Developer, People Person & Team Builder "
+        description="I’m Ayo, a full-stack developer, people person and team builder when I have the time. I work across the stack but primally work on the front-end at WP Tech (Sweden), building internal integration systems."
         canonical="https://www.ayoadesanya.com/"
         openGraph={{
           url: 'https://www.ayoadesanya.com/',
           title:
-            'Ayo Adesanya - Full-stack Developer, People Lover & Team Builder',
+            'Ayo Adesanya - Full-stack Developer, People Person & Team Builder',
           description:
-            'I’m Ayo, a full-stack developer, people lover and team builder when I have the time. I work across the stack but primally work on the front-end at WP Tech (Sweden), building internal integration systems.',
+            'I’m Ayo, a full-stack developer, people person and team builder when I have the time. I work across the stack but primally work on the front-end at WP Tech (Sweden), building internal integration systems.',
           images: [
             {
               url: '/social-image.png',
               width: 800,
               height: 600,
-              alt: 'Ayo Adesanya - Full-stack Developer, People Lover & Team Builder',
+              alt: 'Ayo Adesanya - Full-stack Developer, People Person & Team Builder',
               type: 'image/jpeg',
             },
             {
               url: '/social-image.png',
               width: 900,
               height: 800,
-              alt: 'Ayo Adesanya - Full-stack Developer, People Lover & Team Builder',
+              alt: 'Ayo Adesanya - Full-stack Developer, People Person & Team Builder',
               type: 'image/jpeg',
             },
             { url: '/social-image.png' },
             { url: '/social-image.png' },
           ],
           siteName:
-            'Ayo Adesanya - Full-stack Developer, People Lover & Team Builder ',
+            'Ayo Adesanya - Full-stack Developer, People Person & Team Builder ',
         }}
         twitter={{
           handle: '@ayo_imagines',

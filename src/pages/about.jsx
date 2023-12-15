@@ -1,16 +1,10 @@
 import clsx from 'clsx'
-import Head from 'next/head'
+import { NextSeo } from 'next-seo'
 import Image from 'next/image'
 import Link from 'next/link'
-import { NextSeo } from 'next-seo'
 
 import { Container } from '@/components/Container'
-import {
-  GitHubIcon,
-  InstagramIcon,
-  LinkedInIcon,
-  TwitterIcon,
-} from '@/components/SocialIcons'
+import { GitHubIcon, LinkedInIcon } from '@/components/SocialIcons'
 import portraitImage from '@/images/ayo.jpeg'
 
 function SocialLink({
@@ -67,35 +61,35 @@ export default function About() {
   return (
     <>
       <NextSeo
-        title="About - Ayo Adesanya | Full-stack Developer, People Lover & Team Builder "
-        description="I’m Ayo, a full-stack developer, people lover and great team player. I work across the stack at WP Tech (Sweden building cross-platform systems and mobile applications"
+        title="About - Ayo Adesanya | Full-stack Developer, People Person & Team Builder "
+        description="I’m Ayo, a full-stack developer, people person and great team player. I work across the stack at WP Tech (Sweden building cross-platform systems and mobile applications"
         canonical="https://www.ayoadesanya.com/"
         openGraph={{
           url: 'https://www.ayoadesanya.com/',
           title:
-            'Ayo Adesanya - Full-stack Developer, People Lover & Team Builder',
+            'Ayo Adesanya - Full-stack Developer, People Person & Team Builder',
           description:
-            'I’m Ayo, a full-stack developer, people lover and great team player. I work across the stack at WP Tech (Sweden building cross-platform systems and mobile applications',
+            'I’m Ayo, a full-stack developer, people person and great team player. I work across the stack at WP Tech (Sweden building cross-platform systems and mobile applications',
           images: [
             {
               url: '/social-image.png',
               width: 800,
               height: 600,
-              alt: 'Ayo Adesanya - Full-stack Developer, People Lover & Team Builder',
+              alt: 'Ayo Adesanya - Full-stack Developer, People Person & Team Builder',
               type: 'image/jpeg',
             },
             {
               url: '/social-image.png',
               width: 900,
               height: 800,
-              alt: 'Ayo Adesanya - Full-stack Developer, People Lover & Team Builder',
+              alt: 'Ayo Adesanya - Full-stack Developer, People Person & Team Builder',
               type: 'image/jpeg',
             },
             { url: '/social-image.png' },
             { url: '/social-image.png' },
           ],
           siteName:
-            'Ayo Adesanya - Full-stack Developer, People Lover & Team Builder ',
+            'Ayo Adesanya - Full-stack Developer, People Person & Team Builder ',
         }}
         twitter={{
           handle: '@ayo_imagines',
@@ -121,7 +115,7 @@ export default function About() {
             </h1>
             <div className="mt-6 space-y-7 text-base text-zinc-600 dark:text-zinc-400">
               <p>
-                A full-stack developer, people lover and great team player. I
+                A full-stack developer, people person and great team player. I
                 work across the stack at WP Tech (Sweden), building
                 cross-platform systems and mobile applications, while
                 contributing too the building, digitalization and automation of
