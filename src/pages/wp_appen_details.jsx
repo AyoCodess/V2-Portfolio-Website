@@ -9,6 +9,7 @@ import logoAyoda from '@/images/logos/ayoda.jpeg'
 import logoTailwind from '@/images/logos/tailwind.png'
 import wptechLogo from '@/images/logos/wptech.jpeg'
 import wpappenLogo from '@/images/logos/wpappen.png'
+import LazyYoutube from '@/components/LazyYoutube'
 
 function LinkIcon(props) {
   return (
@@ -64,19 +65,39 @@ export default function Projects() {
       <SimpleLayout
         extra={false}
         title="Elevate your organizations work efficiency"
-        intro="Designed for both employees and employers, WP Appen is a platform that allows you to manage your work and employees in one place."
+        intro="WP Appen, a WP Tech internal employee management application.  Designed for both employees and employers, a platform that allows you to manage your work and employees in one place."
       >
         <article>
           <section>
-            <h1 className="mt-6 text-3xl font-bold text-zinc-600 dark:text-white">
-              WP APPEN
-            </h1>
-            <h3 className="dark:white mt-6 text-lg font-bold text-zinc-600 dark:text-white">
-              About the app
-            </h3>
-            <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
-              Coming soon...
-            </p>
+            <p className="mt-6 text-base  text-black dark:text-white"></p>
+
+            <section className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
+              <p className="mb-6 mt-10 text-xl font-bold text-black dark:text-white">
+                Time Log Feature
+              </p>
+              <p className="mt-6 text-base  text-zinc-600 dark:text-zinc-400">
+                Time-log is a mobile application feature that enables
+                organizations to automate and efficiently manage and prepare
+                employee salary accounting, monitor overtime, and handle absence
+                and internal issue reporting. The following videos below i talk
+                about a 2 core features and my role in the project.
+              </p>
+              <div className="mt-6">
+                <LazyYoutube videoId="eIbGL6ETWXM" />
+              </div>
+              <div className="mt-6">
+                <p className="mb-6 mt-10 text-xl font-bold text-black dark:text-white">
+                  Report Availability Feature
+                </p>
+                <p className="mt-6 text-base  text-zinc-600 dark:text-zinc-400">
+                  An automated system for organizations to gather monthly
+                  schedules from their on-hours staff within a few clicks
+                </p>
+                <div className="mt-6">
+                  <LazyYoutube videoId="ZuUezwzy-xE" />
+                </div>
+              </div>
+            </section>
           </section>
         </article>
       </SimpleLayout>
