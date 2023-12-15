@@ -15,7 +15,7 @@ const projects = [
   {
     name: 'WP Appen (IOS)',
     description:
-      'Built front-end and contributed to API and backend for WP Appen internal app for managing employees.',
+      'Built the front-end and contributed to API and backend for the WP Appen internal app for managing employees.',
     link: {
       href: 'https://apps.apple.com/se/app/wp-appen/id6463141468',
       label: 'App Store',
@@ -29,7 +29,7 @@ const projects = [
   {
     name: 'WP Appen (Android)',
     description:
-      'Built front-end and contributed to API and backend for WP Appen internal app for managing employees.',
+      'Built the front-end and contributed to API and backend for the WP Appen internal app for managing employees.',
     link: {
       href: 'https://play.google.com/store/apps/details?id=com.wptechab.wpappen/',
       label: 'Play Store',
@@ -43,7 +43,7 @@ const projects = [
   {
     name: 'WP Tech Website',
     description:
-      'A Next.js 13 website for WP Tech, a Swedish company that builds system integrations for companies.',
+      'A Next.js 13 website for WP Tech. The design was handed to me by our UX Designer. I Built website from the ground up. It has support for English and Swedish and blog like features.',
     link: {
       href: 'https://www.wptech.se',
       label: 'https://wptech.se/en',
@@ -54,7 +54,7 @@ const projects = [
   {
     name: 'AC Component Library (Early Alpha)',
     description:
-      'A Tailwind and Framer Motion based component library for React.',
+      'A hobby project compiling a small list of frequently used basic Tailwind, Framer Motion and swiper.js components for React projects.',
     link: {
       href: 'https://aclibrary.vercel.app/',
       label: 'aclibrary.vercel.app',
