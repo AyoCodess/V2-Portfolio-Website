@@ -115,8 +115,8 @@ export default function About() {
             </h1>
             <div className="mt-6 space-y-7 text-base text-zinc-600 dark:text-zinc-400">
               <p>
-                A full-stack developer, people person and great team player. I
-                work across the stack at WP Tech (Sweden), building
+                A full-stack developer, people person and great great team
+                player. I work across the stack at WP Tech (Sweden), building
                 cross-platform systems and mobile applications, while
                 contributing too the building, digitalization and automation of
                 our internal work-flows.

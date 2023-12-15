@@ -270,13 +270,13 @@ export default function Home({ articles }) {
   return (
     <>
       <NextSeo
-        title="Ayo Adesanya - Full-stack Developer, People Person & Team player "
+        title="Ayo Adesanya - Full-stack Developer, People Person & Great team player "
         description="I’m Ayo, a full-stack developer, people person and great team player. I work across the stack at WP Tech (Sweden building cross-platform systems and mobile applications"
         canonical="https://www.ayoadesanya.com/"
         openGraph={{
           url: 'https://www.ayoadesanya.com/',
           title:
-            'Ayo Adesanya - Full-stack Developer, People Person & team player',
+            'Ayo Adesanya - Full-stack Developer, People Person & great team player',
           description:
             'I’m Ayo, a full-stack developer, people person and great team player. I work across the stack at WP Tech (Sweden), building cross-platform systems and mobile applications',
           images: [
@@ -284,21 +284,21 @@ export default function Home({ articles }) {
               url: '/social-image.png',
               width: 800,
               height: 600,
-              alt: 'Ayo Adesanya - Full-stack Developer, People Person & Team player',
+              alt: 'Ayo Adesanya - Full-stack Developer, People Person & Great team player',
               type: 'image/jpeg',
             },
             {
               url: '/social-image.png',
               width: 900,
               height: 800,
-              alt: 'Ayo Adesanya - Full-stack Developer, People Person & Team player',
+              alt: 'Ayo Adesanya - Full-stack Developer, People Person & Great team player',
               type: 'image/jpeg',
             },
             { url: '/social-image.png' },
             { url: '/social-image.png' },
           ],
           siteName:
-            'Ayo Adesanya - Full-stack Developer, People Person & Team player ',
+            'Ayo Adesanya - Full-stack Developer, People Person & Great team player ',
         }}
         twitter={{
           handle: '@ayo_imagines',
@@ -309,7 +309,8 @@ export default function Home({ articles }) {
       <Container className="mt-9">
         <div className="max-w-2xl">
           <h1 className="text-4xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-5xl">
-            Ayo Adesanya - Full-stack Developer, People Person & Team player
+            Ayo Adesanya - Full-stack Developer, People Person & Great team
+            player
           </h1>
           <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
             I’m Ayo, a full-stack developer, people person and great team
