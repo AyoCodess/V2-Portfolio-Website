@@ -21,7 +21,7 @@ const projects = [
     },
     logo: wpappenLogo,
     details: {
-      href: '/wp_appen_details',
+      href: '/wp-appen-project',
       label: 'Read more',
     },
   },
@@ -35,7 +35,7 @@ const projects = [
     },
     logo: wpappenLogo,
     details: {
-      href: '/wp_appen_details',
+      href: '/wp-appen-project',
       label: 'Read more',
     },
   },
