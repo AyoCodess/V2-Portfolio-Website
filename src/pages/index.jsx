@@ -298,7 +298,7 @@ export default function Home({ articles }) {
             { url: '/social-image.png' },
           ],
           siteName:
-            'Ayo Adesanya - Full-stack Developer, People Connector & Stellar team player ',
+            'Ayo Adesanya - Full-stack Developer, People Connector & Stellar Team Player ',
         }}
         twitter={{
           handle: '@ayo_imagines',
