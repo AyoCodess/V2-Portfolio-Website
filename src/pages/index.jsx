@@ -320,7 +320,7 @@ export default function Home({ articles }) {
             workflows.
           </p>
           <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
-            Want to talk?, you can email me{' '}
+            Want to talk? You can email me{' '}
             <span className="text-blue-500 hover:text-blue-600">
               <Mailto
                 email="ayo@ayoadesanya.com"
