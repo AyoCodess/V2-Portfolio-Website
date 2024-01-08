@@ -24,6 +24,8 @@ export default function App({ Component, pageProps, router }) {
     <>
       <DefaultSeo
         openGraph={{
+          title:
+            'Ayo Adesanya - Full-stack Developer, People Connector & Stellar Team Player',
           type: 'website',
           locale: 'en_IE',
           url: 'https://www.ayoadesanya.com',
