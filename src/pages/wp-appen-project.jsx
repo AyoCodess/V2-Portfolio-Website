@@ -65,7 +65,9 @@ export default function Projects() {
           </h2>
           <p className="mt-6 text-lg text-zinc-600 dark:text-zinc-400">
             I lead the front-end development, implemented ci/cd, wrote
-            documentation and contributed to the API layer.
+            documentation and contributed to the API layer. A decision was made
+            to no longer allow the app to be viewable to the public as it is
+            primarily an internal application.
           </p>
           <h2 className="mt-4 text-2xl font-bold dark:text-white">
             Time Log Feature
