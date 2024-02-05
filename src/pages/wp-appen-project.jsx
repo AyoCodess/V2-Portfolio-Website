@@ -60,14 +60,14 @@ export default function Projects() {
         intro="WP Appen, a WP Tech internal employee management application.  Designed for both employees and employers, a platform that allows you to manage your work and employees in one place."
       >
         <article className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
-          <h2 className="mt-4 text-2xl font-bold text-white">
+          <h2 className="mt-4 text-2xl font-bold dark:text-white">
             My Contribution
           </h2>
           <p className="mt-6 text-lg text-zinc-600 dark:text-zinc-400">
             I lead the front-end development, implemented ci/cd, wrote
             documentation and contributed to the API layer.
           </p>
-          <h2 className="mt-4 text-2xl font-bold text-white">
+          <h2 className="mt-4 text-2xl font-bold dark:text-white">
             Time Log Feature
           </h2>
           <p className="mt-6 text-base  text-zinc-600 dark:text-zinc-400">
